@@ -1,0 +1,388 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+}
+
+.header{
+   position: fixed;
+   background-color: white;
+   width: 100%;
+   padding: 20px 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.header h1{
+   font-size: 40px;
+}
+.header ul{
+   display:  flex;
+   list-style: none;
+}
+.header ul li{
+   padding: 8px  20px;
+
+}
+.header ul li a{
+   font-size: 30px;
+   text-decoration-line: none;
+   color: black;
+}
+.loginBtn{
+   padding: 10px 40px;
+   background-color: #204E51;
+   border: none;
+   font-size: 20px;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.singBtn:hover{
+   background-color: #204E51;
+   color: white;
+}
+.singBtn{
+   padding: 10px 40px;
+   border: 2px solid #204E51 ;
+   color:  #204E51;
+   border-radius: 10px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.righ-side-btn{
+   margin-right: 75px ;
+}
+.hero{
+   height: 600px;
+   background-color: skyblue;
+   text-align: center;
+  background-image: url(background.jpg);
+   background-size: cover;
+}
+.hero h1{
+   padding-top: 10%;
+   font-size: 85px;
+   color: white;
+}
+.hero p{
+   font-size: 18px;
+   margin: 10px 30%;
+   color: white;
+}
+.getBtn{
+   margin-top: 40px;
+   padding: 15px 40px;
+   background-color:  #204E51;
+   font-size: 22px;
+   color: white;
+   border-radius: 22px;
+   border: 2px solid  #204E51;
+}
+.learnBtn{
+   margin-top: 40px;
+   padding: 15px 40px;
+   font-size: 22px;
+   color: #204E51;
+   border-radius: 22px;
+   border: 2px solid  #204E51;
+}
+.passion-parent{
+   display: flex;
+   padding: 20px 50px;
+}
+.left-side h1{
+   font-size: 70px;
+   color: #204E51;
+}
+.left-side button{
+   margin-top: 20px;
+   padding: 15px 50px;
+   background-color: #204E51;
+   color: white;
+   font-size: 30px;
+   border: none;
+   border-radius: 22px;
+
+}
+.right-side img{
+   width: 500px;
+   height: 500px;
+   border-radius: 22px;
+}
+.right-side h1{
+   box-shadow: 0px 2px 4px gray;
+   bottom: -30px;
+   right: 58px;
+   position: absolute;
+   background-color:white;
+   color: #204E51;
+   padding: 20px;
+   width: 300px;
+   text-align: center;
+   font-size: 50px;
+   border-radius: 22px;
+} 
+.right-side{
+   position: relative;
+}
+.service{
+   text-align: center;
+   margin: 10% 10px;
+}
+.service h1{
+   font-size: 50px;
+   color: #204E51;
+}
+.service p{
+   margin: 20px 30%;
+}
+.parent-box{
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px; */
+   margin-bottom: 80px;
+   display: grid;
+   grid-template-columns: 300px 300px 300px 300px;
+   justify-content: center;
+   gap: 60px;
+}
+.box1{
+   box-shadow: 0px 2px  3px grey;
+   border-radius: 12px;
+   padding: 70px 20px;
+   background-color: white;
+   text-align: center;
+}
+.product{
+   display: grid;
+   grid-template-columns: 400px 400px 400px 400px;
+   gap: 60px;
+   
+}
+.product img{
+   width: 350px;
+   border-radius: 22px;
+}
+.pic1{
+   box-shadow: 0px 2px 3px gray;
+   border-radius: 12px;
+   padding: 70px 20px;
+   background-color: white;
+   text-align: center;
+}
+.pic1 h1{
+   color: #204E51;
+}
+.link{
+   margin-top: 80px;
+   padding-left: 770px;
+   color: #204E51;
+}
+.link a{
+   color: #204E51;
+   font-size: 20px;
+}
+.dhexda{
+   margin-top: 60px;
+   background-image: url(/dhexda.webp);
+   background-size: cover;
+   height: 800px;
+}
+.dhexda h1 {
+   padding-top: 200px;
+   padding-bottom: 180px;
+   padding-left: 90px;
+   font-size: 70px;
+}
+.getBtn{
+   margin-left: 80px;
+   
+}
+
+.blog-parent{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 500px 500px 500px;
+   gap: 10px;
+   justify-content: center;
+   /* padding: 40px 150px;
+   box-shadow: 0px 2px 3px gray ;
+   border: 70px; */
+  
+}
+.blog img{
+   width: 400px;
+   height: 500px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   /* border: 22px; */
+    
+}
+.blog{
+   width: 350px;
+   padding: 70px 20px;
+   /* box-shadow: 0px 2px 3px gray; */
+   /* border-radius: 12px;
+   padding: 70px 20px;
+   background-color: white;
+   text-align: center; */
+}
+.blog h1{
+   margin-top: 30px;
+   color: #204E51;
+   font-family: sans-serif;
+   font-size: 30px;
+}
+.blog p{
+   margin-top: 20px;
+}
+.blog a{
+   margin-top: 22px;
+   font-size: 18px;
+   color: #204E51;
+}
+.last{
+   display:flex;
+   width: 100% 10px;
+   height: 600px;
+   background-color: #204E51;
+}
+.last img{
+   width: 20px;
+   background-color: white;
+   margin-top: 20px;
+   padding: 5px;
+   border-radius: 7px;
+}
+.last-1 p{
+   margin-top: 30px;
+   color: gray;
+}
+.last-1 h1{
+   color: white;
+}
+.last-1{
+   padding-top: 200px;
+   padding-left: 60px;
+}
+.last-2{
+   margin-top: 200px;
+   margin-left: 700px;
+}
+.last-2 h2{
+   color: white;
+   
+}
+.last-2 ul li{
+   margin-top: 20px;
+   padding: 3px;
+   color: grey;
+}
+.wep{
+   margin-left: 80px;
+   margin-top: 200px;
+}
+.wep ul li{
+   margin-top: 20px;
+   padding: 3px;
+   color: grey;
+}
+.wep h2{
+   color: white;
+}
+.Test{
+   margin-left: 250px;
+   display: flex;
+   width: 1200px;
+   height: 500px;
+   background-color: #204E51;
+   border-radius: 22px;
+}
+.axmed img{
+   width: 200px;
+   margin-top: 150px;
+   margin-left: 100px;
+   border-radius: 22px;
+}
+.iize h1 {
+   margin-top: 190px;
+   padding-left: 20px;
+   color: white;
+   font-family: sans-serif;
+}
+.iize h6{
+   padding-top: 10px;
+   padding-left:20px ;
+   color: grey;
+}
+.iize p{
+   padding-top: 10px;
+   padding-left:20px ;
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is befits css */
+.benefit-parent{
+   margin: 10%;
+   display: flex;
+   padding: 1px 50px;
+}
+.l-side h1{
+   font-size: 85px;
+   color: #204E51;
+
+}
+.r-side{
+   background-color: #204E51;
+   height: 500px;
+   width: 1200px;
+}
+.l-side button{
+   background-color: #204E51;
+   font-size: 22px;
+   color: white;
+   border: none;
+   padding: 12px 60px;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+.l-side p{
+   margin-top: 20px;
+   font-weight: 300;
+}
+
